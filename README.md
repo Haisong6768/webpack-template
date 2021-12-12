@@ -8,8 +8,6 @@ For more information, please visit [webpack](https://webpack.js.org/ "webpack").
 
 _This template could be used for projects containing HTML, CSS and plain JavaScript._
 
----
-
 ## Features
 
 - Zero configuration for small projects.
@@ -18,8 +16,6 @@ _This template could be used for projects containing HTML, CSS and plain JavaScr
 - All filenames will include unique hashes for cache busting.
 - Assets are automatically arranged and referenced for easy exports.
 - The `/dist` folder is automatically cleaned.
-
----
 
 ## Initialization
 
@@ -43,15 +39,11 @@ Paste the following scripts into `"scripts"` in `package.json`.
 "dev": "webpack-dev-server --config webpack.dev.js"
 ```
 
----
-
 ## Usage
 
 - Run `npm run dev` to enable dev server on localhost:6768 (port configurable). This server will watch for file changes in the `/src` directory and recompile each time. All files will be stored in memory and served, so that no files will be created.
 - Run `npm run build` to compile once, files will be stored in the `/dist` directory. No CSS files will be generated, as they are contained inside JavaScript files and injected into the DOM once the page is loaded. No code will be minified for clear readability during development.
 - Run `npm run prod` to compile once, files will be stored in the `/dist` directory. All code will be minified for minimum size when shipping.
-
----
 
 ## Notes
 
@@ -82,8 +74,6 @@ Paste the following scripts into `"scripts"` in `package.json`.
     ]
     ```
 - Remember to modify the `.gitignore` file if you would like to use Git for version control.
-
----
 
 Thank you!
 
