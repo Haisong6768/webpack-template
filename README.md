@@ -10,7 +10,7 @@ _This template could be used for projects containing HTML, CSS and plain JavaScr
 
 ---
 
-##Features
+## Features
 
 - Zero configuration for small projects.
 - A dev server with auto reloading and Hot Module Replacement (HMR) is included.
@@ -21,7 +21,8 @@ _This template could be used for projects containing HTML, CSS and plain JavaScr
 
 ---
 
-##Initialization
+## Initialization
+
 Run the following command to quickly initialize npm.
 
 ```bash
@@ -44,7 +45,7 @@ Paste the following scripts into `"scripts"` in `package.json`.
 
 ---
 
-##Usage
+## Usage
 
 - Run `npm run dev` to enable dev server on localhost:6768 (port configurable). This server will watch for file changes in the `/src` directory and recompile each time. All files will be stored in memory and served, so that no files will be created.
 - Run `npm run build` to compile once, files will be stored in the `/dist` directory. No CSS files will be generated, as they are contained inside JavaScript files and injected into the DOM once the page is loaded. No code will be minified for clear readability during development.
@@ -52,14 +53,14 @@ Paste the following scripts into `"scripts"` in `package.json`.
 
 ---
 
-##Notes
+## Notes
 
 - For absolute beginners, press Ctrl/Cmd + C to terminate the dev server.
 - Configurations for development(`npm run dev` and `npm run build`) are contained in the `webpack.dev.js` file.
 - Configurations for production(`npm run prod`) are contained in the `webpack.prod.js` file.
 - Multiple JavaScript files entry points can be added to the `entry` property in the form of `name: path`.
   - e.g.
-    ```json
+    ```
     entry: {
         main: "./src/main.js",
         vendor: "./src/vendor.js"
@@ -67,7 +68,7 @@ Paste the following scripts into `"scripts"` in `package.json`.
     ```
 - Multiple HTML files can be added by instantiating the `HtmlWebpackPlugin` multiple times.
   - e.g.
-    ```json
+    ```
     plugins: [
         new CleanWebpackPlugin(),
         new HtmlWebpackPlugin({
