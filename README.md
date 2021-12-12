@@ -47,6 +47,7 @@ Paste the following scripts into `"scripts"` in `package.json`.
 
 ## Notes
 
+- Place your source files inside the `/src` directory.
 - For absolute beginners, press Ctrl/Cmd + C to terminate the dev server.
 - Configurations for development(`npm run dev` and `npm run build`) are contained in the `webpack.dev.js` file.
 - Configurations for production(`npm run prod`) are contained in the `webpack.prod.js` file.
